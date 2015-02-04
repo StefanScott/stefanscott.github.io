@@ -97,7 +97,7 @@
                                 <input type="text" name="last-name" id="last-name" class="form-control" required="required" placeholder="Last Name">
                             </div>
                             <div class="form-group">
-                                <input type="text" name="_reply-to" id="email" class="form-control" required="required" placeholder="Email address" >
+                                <input type="text" name="_replyto" id="email" class="form-control" required="required" placeholder="Email address" >
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
@@ -107,6 +107,9 @@
                             <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
                         </div>
                     </div>
+                    <input type="hidden" name="_subject" value="[TESTING] Email from your website!" />
+                    <input type="text" name="_gotcha" style="display:none" />
+                    <input type="hidden" name="_cc" value="stefanscottalexx@yahoo.com" />
                 </form>
             </div><!--/.col-sm-8-->
             <div class="col-sm-4">
